@@ -1,0 +1,74 @@
+/* General container styling */
+.register-container {
+    background-color: #0a1128; /* Dark navy */
+    color: #ffffff; /* White text for contrast */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  .register-header h1 {
+    font-size: 2.5rem;
+    color: #ff7f50; /* Orange accent */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Form styling */
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .register-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ff7f50; /* Orange border */
+    border-radius: 5px;
+    outline: none;
+    background-color: #14213d; /* Slightly lighter navy */
+    color: #ffffff;
+  }
+  
+  .register-form input::placeholder {
+    color: #cccccc;
+  }
+  
+  .register-button {
+    background-color: #ff7f50; /* Orange button */
+    color: #ffffff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: #e86c3a; /* Darker orange on hover */
+  }
+  
+  /* Footer styling */
+  .register-footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .register-link {
+    color: #ff7f50; /* Orange link */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .register-link:hover {
+    text-decoration: underline;
+  }
+  
